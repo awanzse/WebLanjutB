@@ -20,9 +20,6 @@ class suratno extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$this->load->view("data_view");
 	}
-	public function Biodata()
-	{
-		echo (
 }
