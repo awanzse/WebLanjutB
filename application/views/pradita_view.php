@@ -13,6 +13,12 @@
   </div>
 
 <h1>BIODATA DIRI : </h1>
+<tr>
+	<img src="<?= base_url () ?>assets/img/dita.jpg" height="120px" width="100px"></td>
+</tr>
+<tr> </tr>
+
+	
 
 <table style=”width:600px;” border=”1″ align=”center”>
 
@@ -102,14 +108,6 @@
 <tr>
 
 <td>Pekerjaan</td><td style=”text-align:left”>  Guru</td>
-
-</tr>
-
-<tr>
-
-<td class=”baris-ganjil” >Photo</td><td class=”baris-ganjil” style=”text-align:left”> 
-<img src="<?=base_url() ?>assets/img/dita.jpg" width="100px" height="150px">
-</td>
 
 </tr>
 
