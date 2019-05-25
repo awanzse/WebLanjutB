@@ -118,6 +118,6 @@
                 </div>
                 <div id="column">
                     <h2>Temukan Kami di ...</h2>
-                    <a href="https://www.facebook.com/profile.php?id=100027771579000">Facebook</a><br> 
+                    <a href="https://www.instagram.com/ijurjamil0709/">Instagram</a><br> 
                 </div> 
             </footer>
