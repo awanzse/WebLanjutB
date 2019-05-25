@@ -2,15 +2,15 @@
   <head>
     <title>PROFIL MAHASISWA</title> 
   </head>
-  <body bgcolor="#blue" width="800px"> 
+  <body bgcolor="#green" width="800px"> 
   <div align="center">
   
 <center>
-<h1>Curiculum Vitae</h1>
+<h1><marquee behavior="alternate" width="500" height="40">Curiculum Vitae</marquee></hi>
     <table border="1">
-	<tr style="background-color:red">
+	<tr style="background-color:green">
   
- <td colspan="3"><center>BIODATA</center></td>
+ <td colspan="3"><center>Profil Mahasiswa</center></td>
  </tr>
  <tr>
  <td>NIM</td>
@@ -18,22 +18,22 @@
  <td>1637031</td>
  </tr>
  <tr>
- <td>NAMA</td>
+ <td>Nama</td>
  <td>:</td>
  <td>JURIAH JAMIL</td>
  </tr>
  <tr>
- <td>SEMESTER/PRODI</td>
+ <td>Semester/Prodi</td>
  <td>:</td>
  <td>6B/TEKNIK INFORMATIKA</td>
  </tr>
  <tr>
- <td>MATA KULIAH</td>
+ <td>Mata Kuliah</td>
  <td>:</td>
  <td>WEB LANJUT</td>
  </tr>
  <tr>
- <td>DOSEN</td>
+ <td>Dosen Pengampu</td>
  <td>:</td>
  <td>INDRA GUNAWAN, S.Kom,.</td>
  </tr>
@@ -105,12 +105,8 @@
 </tr>
 </table>
 <footer>
-				<p><p align="center">juriahijur00@gmail@gmail.com</p></p>
 				<div id="column">
                     <h2>Komentar,saran,bantuan dan dukungan anda</h2>
-                    silahkan kirimkan di
-					<a href="https://www.facebook.com/profile.php?id=100027771579000">Facebook,</a><br>
-                    dan submit form anda.
                 </div>
 
                 <div id="column"> <h2>Hubungi Kami</h2> Jln. Jend Sudirman Galian Tanah<br>
@@ -118,6 +114,9 @@
                 </div>
                 <div id="column">
                     <h2>Temukan Kami di ...</h2>
-                    <a href="https://www.instagram.com/ijurjamil0709/">Instagram</a><br> 
+                    <a href="https://www.facebook.com/profile.php?id=100027771579000">Facebook,</a><br>
+					<a href="https://www.instagram.com/ijurjamil0709/">Instagram</a><br> 
+					<a href="https://mail.google.com/mail/u/1/#inbox">E-mail</a><br> 
+					
                 </div> 
             </footer>
