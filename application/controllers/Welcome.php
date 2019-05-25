@@ -1,7 +1,11 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+<<<<<<< HEAD
 class MUHAMMAD RIDHO SAPUTRA extends CI_Controller {
+=======
+class WELCOME extends CI_Controller {
+>>>>>>> 4528227ee0d70bedbb607c7d36dc61d0ccbb8786
 
 	/**
 	 * Index Page for this controller.
