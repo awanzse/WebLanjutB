@@ -1,21 +1,23 @@
+
 <html>
-	<head>
-		<title>UAS WEBLANJUT</title>
-		<!-- Bootstrap -->
-    	<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/css/style.css">
-    </head>
-	<body>
-		<div class="navbar navbar-inverse navbar-fixed-top">
-		<header><img src="assets/image/ .jpg" alt=""/></header>
+<head>
+	<title>UAS WEBLANJUT</title>
+	<link rel="stylesheet" href="<?= base_url() ?>assets/bootstrap/css/bootstrap.min.css" >
+	<script src="<?= base_url() ?>assets/bootstrap/js/bootstrap.min.js" ></script>
+</head>
+<header>
+<div class="navbar navbar-inverse navbar-fixed-top">
+		<header><img src="assets/image/pradita_head.jpg" alt=""/></header>
 			<div class="navbar-inner">
 				<div class="container-fluid"><a class="brand" href="index.php">Beranda</a><a class="brand" href="#">Kategori</a><a class="brand" href="#">Kontak</a><a class="brand" href="#">Tentang</a></div>
 			</div>
 		</div>
+</header>
         <center>
 
 <body bgcolor="#green" width="800px">
 <div class="jumbotron text-center">
-  <img src="<?= base_url() ?>assets/image/pradita.jpg">
+  <img src="<?= base_url() ?>assets/image/pradita_head.jpg">
   </div>
 
 <h1>BIODATA DIRI : </h1>
