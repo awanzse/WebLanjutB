@@ -1,85 +1,29 @@
+# MyCalculator-With-Jquery
+MyCalculator Adalah Aplikasi Calculator Berbasis Web, Di Buat Dengan HTML+CSS+JQUERY. Crete By: Ahmad Sopyan
+
+# SCREENSHOOT
+
+<img src="https://cdn.pbrd.co/images/Hp7WcVK.png" width="100%" height="500">
+
+
+# HTML
+
+```===================================================================```
+
+
+```
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-	<title>My-Calculator</title>
+	<title>calculator</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-
-    <style type="text/css" media="screen">
-
-body {
-  background-color: #089;
-}
-
-p {
-  margin: 0;
-  font-family: Pacifico;
-  position: relative;
-  left: 5%;
-  color:#eaeaea;
-}
-
-.calculator {
-  position: relative;
-  margin: 1em auto;
-  padding: 1em 0;
-  display: block-inline;
-  width: 350px;
-  background-color: #444;
-  border-radius: 25px;
-  box-shadow: 5px 5px 15px 3px #111;
-  font-family: 'Oxygen';
-}
-
-.calc-row {
-  text-align: center;
-}
-
-.calc-row div.screen {
-  font-family: Droid Sans Mono;
-  display: table;
-  width: 85%;
-  background-color: #aaa;
-  text-align: right;
-  font-size: 2em;
-  min-height: 1.2em;
-  margin-left: 0.5em;
-  padding-right: 0.5em;
-  border: 1px solid #888;
-  color: #333;
-}
-
-.calc-row div {
-  text-align: center;
-  display: inline-block;
-  font-weight: bold;
-  border: 1px solid #555;
-  background-color: #eee;
-  padding: 10px 0;
-  margin: 7px 5px;
-  border-radius: 15px;
-  box-shadow: 2px 2px 1px 1px #222;
-  width: 50px;
-}
-
-.calc-row div.zero {
-  width: 112px;
-}
-
-.calc-row div.zero {
-  margin-right: 5px;
-}
-
-</style>	
+  <link rel="stylesheet" href="style-as.css">
 </head>
 <body>
   <div class="calculator">
-  <p>Calculator By Indra Wahyu</p>
+  <p>Calculator By Ahmad Sopyan</p>
   <div class="calc-row">
-    <div class="screen">082284072951</div>
+    <div class="screen">089635550381</div>
   </div>
   
   <div class="calc-row">
@@ -103,12 +47,10 @@ p {
   </div>
 </div>
 
-<!-- include jquery.min.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<!-- Page Script -->
 <script>
-	$(document).ready(function() {
+  $(document).ready(function() {
   var result = 0;
   var prevEntry = 0;
   var operation = null;
@@ -179,3 +121,74 @@ operate = function(a, b, operation) {
 </script>
 </body>
 </html>
+```
+
+
+# CSS
+
+```
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Pacifico|Oxygen);
+
+body {
+  background-color: #089;
+}
+
+p {
+  margin: 0;
+  font-family: Pacifico;
+  position: relative;
+  left: 5%;
+  color:#eaeaea;
+}
+
+.calculator {
+  position: relative;
+  margin: 1em auto;
+  padding: 1em 0;
+  display: block-inline;
+  width: 350px;
+  background-color: #444;
+  border-radius: 25px;
+  box-shadow: 5px 5px 15px 3px #111;
+  font-family: 'Oxygen';
+}
+
+.calc-row {
+  text-align: center;
+}
+
+.calc-row div.screen {
+  font-family: Droid Sans Mono;
+  display: table;
+  width: 85%;
+  background-color: #aaa;
+  text-align: right;
+  font-size: 2em;
+  min-height: 1.2em;
+  margin-left: 0.5em;
+  padding-right: 0.5em;
+  border: 1px solid #888;
+  color: #333;
+}
+
+.calc-row div {
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  border: 1px solid #555;
+  background-color: #eee;
+  padding: 10px 0;
+  margin: 7px 5px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 1px 1px #222;
+  width: 50px;
+}
+
+.calc-row div.zero {
+  width: 112px;
+}
+
+.calc-row div.zero {
+  margin-right: 5px;
+}
+```
