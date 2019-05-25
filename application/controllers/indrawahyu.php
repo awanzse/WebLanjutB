@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class rinaldi45 extends CI_Controller {
+class indrawahyu extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -18,8 +18,12 @@ class rinaldi45 extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+	function __construct(){
+		parent::__construct();
+		$this->load->helper('url');
+	}
 	public function index()
 	{
-		$this->load->view('rahmat');
+		$this->load->view("indra");
 	}
 }
