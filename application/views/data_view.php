@@ -33,8 +33,6 @@
 </tr>
 <tr>
 <td>Nama</td><td style=”text-align:left”>SURATNO</td>
-<td rowspan="5">
-<img src="<?= base_url() ?>assets/img/logoupp100x100.png">
 </tr>
 <tr>
 <td>Nim</td><td style=”text-align:left”>1637052</td>
