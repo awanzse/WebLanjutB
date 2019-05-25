@@ -51,6 +51,7 @@
           <td width="25%">Nama</td>
           <td width="1%">:</td>
           <td><b>SUHARMAN </b></td>
+		  <img src="<?= base_url () ?>assets/img/suharman.jpg" height="200px" width="150px"></td>
         </tr>
 <tr>
           <td>Tempat Tanggal, Lahir </td>
