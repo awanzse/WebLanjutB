@@ -13,7 +13,7 @@
  <td colspan="3"><center>BIODATA</center></td>
  </tr>
  <tr>
- <td>NIM</td>
+ <td>NIMM</td>
  <td>:</td>
  <td>1637053</td>
  </tr>
