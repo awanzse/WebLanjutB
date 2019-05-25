@@ -24,6 +24,6 @@ class riski extends CI_Controller {
 	}
 	public function index()
 	{
-		$this->load->view("riski");
+		$this->load->view("riski1");
 	}
 }
