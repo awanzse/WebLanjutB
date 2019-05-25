@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap 4.0.0-beta -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <style type="text/css" media="screen">
+        body {
+          padding-top: 54px;
+        }
+        @media (min-width: 992px) {
+          body {
+            padding-top: 56px;
+          }
+        }
+        a {
+          color: #551a8b;
+        }
+        button.close {
+          padding-left: 100%;
+        }
+        .movie-row {
+          padding-top: 15px;
+        }
+        .modal-header {
+          border-bottom: none;
+        }
+        .portfolio-item {
+          margin-bottom: 30px;
+        }
+        #trailer .modal-dialog {
+            margin-top: 200px;
+            padding: 15px;
+        }
+        #trailer-video {
+            width: 100%;
+            height: 100%;
+        }
+        .movie-tile:hover {
+            cursor: pointer;
+        }
+        .scale-media {
+            padding-bottom: 75%;
+            position: relative;
+        }
+        .scale-media iframe {
+            border: none;
+            height: 100%;
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 0;
+            background-color: white;
+        }
+    </style>
+
+    <script type="text/javascript" charset="utf-8">
+        // Pause the video when the modal is closed
+        $(document).on('click', '.close, .modal-backdrop, .modal', function (event) {
+            // Remove the src so the player itself gets removed, as this is the only
+            // reliable way to ensure the video stops playing in IE
+            $("#trailer-video-container").empty();
+        });
+        // Start playing the video whenever the trailer modal is opened
+        $(document).on('click', '.movie-tile', function (event) {
+            var trailerYouTubeId = $(this).attr('data-trailer-youtube-id')
+            var sourceUrl = 'http://www.youtube.com/embed/' + trailerYouTubeId + '?autoplay=1&html5=1';
+            $("#trailer-video-container").empty().append($("<iframe></iframe>", {
+              'id': 'trailer-video',
+              'type': 'text-html',
+              'src': sourceUrl,
+              'frameborder': 0
+            }));
+        });
+    </script>
+</head>
+
+  <body>
+    <!-- Trailer Video Modal -->
+    <div class="modal" id="trailer">
+      <div class="modal-dialog" role="document">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body scale-media" id="trailer-video-container">
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Page Content -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Lebah Lari Movie List</a>
+        </button>
+    </nav>
+    <div class="container movie-row">
+        <div class="row">
+            
+        <div class="col-lg-4 portfolio-item movie-tile text-center" data-trailer-youtube-id="XwJhmqLU0so" data-toggle="modal" data-target="#trailer">
+            <div class="card h-100">
+                <img class="card-img-top" src="https://image.tmdb.org/t/p/w500/yxQYvWjh4wjwjrr6hhNpruVCFDG.jpg" alt=""/>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Dear White People</a>
+                    </h4>
+                    <p class="card-text">Four black students attend an Ivy League college where a riot breaks out over an “African American” themed party thrown by white students. With tongue planted firmly in cheek, the film explores racial identity in 'post-racial' America while weaving a story about forging one's unique path in the world.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 portfolio-item movie-tile text-center" data-trailer-youtube-id="H5PR6LTfWmk" data-toggle="modal" data-target="#trailer">
+            <div class="card h-100">
+                <img class="card-img-top" src="https://image.tmdb.org/t/p/w500/pZNdq3a49iJibUIExhe3TXqHoDu.jpg" alt=""/>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">The Glass House</a>
+                    </h4>
+                    <p class="card-text">After the parents of Ruby and her younger brother, Rhett, are killed in a car crash, their parents' best friends, Erin and Terry Glass, become their guardians. The children hear promises of a world of opulence and California fun -- all they have to do is move into the Glasses' gated house. Before very long, though, Ruby suspects that Erin and Terry may not be the ideal guardians they seemed to be.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 portfolio-item movie-tile text-center" data-trailer-youtube-id="2jqEoioTQDk" data-toggle="modal" data-target="#trailer">
+            <div class="card h-100">
+                <img class="card-img-top" src="https://image.tmdb.org/t/p/w500/xMVGVA3MAWtBcLIsfkYLa31n241.jpg" alt=""/>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">I Heart Huckabees</a>
+                    </h4>
+                    <p class="card-text">A husband-and-wife team play detective, but not in the traditional sense. Instead, the happy duo helps others solve their existential issues, the kind that keep you up at night, wondering what it all means.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 portfolio-item movie-tile text-center" data-trailer-youtube-id="6YjSIvmNjT8" data-toggle="modal" data-target="#trailer">
+            <div class="card h-100">
+                <img class="card-img-top" src="https://image.tmdb.org/t/p/w500/lDlGPZS0UJYKxVlpyff3BMyPc2H.jpg" alt=""/>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Mean Girls</a>
+                    </h4>
+                    <p class="card-text">Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 portfolio-item movie-tile text-center" data-trailer-youtube-id="8qrB9I3DM80" data-toggle="modal" data-target="#trailer">
+            <div class="card h-100">
+                <img class="card-img-top" src="https://image.tmdb.org/t/p/w500/6oxkO1VgKCq74fNILKAg6t2dVEt.jpg" alt=""/>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">The Nightmare Before Christmas</a>
+                    </h4>
+                    <p class="card-text">Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 portfolio-item movie-tile text-center" data-trailer-youtube-id="ko5r9GFjzKw" data-toggle="modal" data-target="#trailer">
+            <div class="card h-100">
+                <img class="card-img-top" src="https://image.tmdb.org/t/p/w500/e9RqNtoG6HiMaNDQJIUTv0dM80u.jpg" alt=""/>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Your Sister's Sister</a>
+                    </h4>
+                    <p class="card-text">Iris invites her friend Jack to stay at her family's island getaway after the death of his brother. At their remote cabin, Jack's drunken encounter with Hannah, Iris' sister, kicks off a revealing stretch of days.</p>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+  </body>
+</html>

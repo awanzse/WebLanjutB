@@ -934,3 +934,8 @@ a.thumbnail{background-color:#dfdfdf;}a.thumbnail:hover{background-color:#bbbbbb
 .show{display:block;}
 .invisible{visibility:hidden;}
 .affix{position:fixed;}
+footer{ float:left; background:rgba(139, 0, 0, 0.92); width:960px; color: rgba(255, 250, 118, 0.97); }
+footer #column{ width:300px; padding:10px; float:left; font-size: 14px; }65
+footer #column h2{ margin:0px; margin-bottom:10px; font-family:Cuprum; font-size:18px; color:#d2691e; font-weight:bold; }
+footer #column a{ font-weight:bold; color:#0099CC; text-decoration:none; }
+footer #column a:hover{ text-decoration:underline; }

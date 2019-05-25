@@ -6,33 +6,33 @@
   <div align="center">
   
 <center>
-<h1>Curiculum Vitae</h1>
+<h1><marquee behavior="alternate" width="500" height="40">Curriculum Vitae</marquee></h1>
     <table border="1">
-	<tr style="background-color:red">
+	<tr style="background-color:gray">
   
- <td colspan="3"><center>BIODATA</center></td>
+ <td colspan="3"><center><b>BIODATA</b></center></td>
  </tr>
- <tr>
+ <tr style="background-color:white">
  <td>NIM</td>
  <td>:</td>
  <td>1637040</td>
  </tr>
- <tr>
+ <tr style="background-color:white">
  <td>NAMA</td>
  <td>:</td>
  <td>ERNA ARMITA NST</td>
  </tr>
- <tr>
+ <tr style="background-color:white">
  <td>SEMESTER/PRODI</td>
  <td>:</td>
  <td>6B/TEKNIK INFORMATIKA</td>
  </tr>
- <tr>
+ <tr style="background-color:white">
  <td>MATA KULIAH</td>
  <td>:</td>
  <td>WEB LANJUT</td>
  </tr>
- <tr>
+ <tr style="background-color:white">
  <td>DOSEN</td>
  <td>:</td>
  <td>INDRA GUNAWAN, S.Kom,.</td>
@@ -108,5 +108,26 @@
           <td>:</td>
           <td>TK Aisyah Butstanul Altfal</td>
            </tr>
+		   
 </tr>
 </table>
+<tr>
+<tr>
+ <footer>    
+<tr>
+<tr>
+                   <p><p align="center">copyright &copy; 2019 ERNA ARMITA NST</p></p>
+                    <div id="column">
+                       <h2>Komentar,saran,bantuan dan dukungan anda
+                    silahkan kirimkan di</h2>
+                        Pasar Senin, Pasir Pengaraian<br>
+                        Rokan Hulu, Riau<br>
+                        +628 5363 507590
+                    </div> 
+                    <div id="column">
+                        <h2>Temukan Kami di ...</h2>
+                        <a href="https://www.facebook.com/piny.alvionita"> Facebook </a><br>
+                        <a href="https://www.instagram.com/ernaarmitanst/"> Instagram </a><br>
+						<a href="https://mail.google.com/mail/u/0/#inbox"> Gmail </a>
+                    </div> 
+                </footer>
