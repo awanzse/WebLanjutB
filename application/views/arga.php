@@ -2,30 +2,30 @@
   <head>
     <title>PROFIL MAHASISWA</title> 
   </head>
-  <body bgcolor="#ffff" width="800px"> 
+  <body bgcolor="#green" width="800px"> 
   <div align="center">
   
 <center>
-<h1>BIODATA</h1>
+<h1>Curiculum Vitae</h1>
     <table border="1">
 	<tr style="background-color:green">
   
  <td colspan="3"><center>BIODATA</center></td>
  </tr>
  <tr>
- <td>NIM</td>
+ <td>NIMM</td>
  <td>:</td>
- <td>1637041</td>
+ <td>1637053</td>
  </tr>
  <tr>
  <td>NAMA</td>
  <td>:</td>
- <td>SUHERMAN</td>
+ <td>RISKY ARGA RIESMANTO</td>
  </tr>
  <tr>
  <td>SEMESTER/PRODI</td>
  <td>:</td>
- <td>6B/TEKNIK INFORMATIKA IS THE BEST</td>
+ <td>6B/TEKNIK INFORMATIKA</td>
  </tr>
  <tr>
  <td>MATA KULIAH</td>
@@ -50,13 +50,12 @@
 <tr>
           <td width="25%">Nama</td>
           <td width="1%">:</td>
-          <td><b>SUHERMAN </b></td>
-		<img src="<?= base_url () ?>assets/img/suherman.jpg" height="200px" width="150px"></td>
+          <td><b>RISKY ARGA RIESMANTO </b></td>
         </tr>
 <tr>
           <td>Tempat Tanggal, Lahir </td>
           <td>:</td>
-          <td>MEKAR JAYA, 03 JUNI 1997</td>
+          <td>UJUNG BATU 1, 31 MARET 1997</td>
         </tr>
 <tr>
           <td>Jenis Kelamin </td>
@@ -66,17 +65,17 @@
 <tr>
           <td>Agama </td>
           <td>:</td>
-          <td>Islam</td>
+          <td>ISLAM</td>
         </tr>
 <tr>
           <td>Alamat</td>
           <td>:</td>
-          <td>MEKAR JAYA, KEC. TAMBUSAI UTARA, KAB. ROKAN HULU</td>
+          <td>TRANS ALIAGA 1</td>
         </tr>
 <tr>
     <td>E-mail</td>
           <td>:</td>
-          <td>suherman23herman@gmail.com</td>
+          <td>riskyarga67@gmail.com</td>
         </tr>
 </tbody>
     </table>
@@ -89,19 +88,18 @@
           <td>Fakultas Ilmu Komputer, Prodi Teknik Informatika, Universitas Pasir Pengaraian </td>
         </tr>
 <tr>
-          <td>2013-2016</td>
+          <td>2011-2014</td>
           <td>:</td>
-          <td>SMK NEGERI 1 TAMBUSAI UTARA </td>
+          <td>SMKN 1 BARUMUN  </td>
         </tr>
 <tr>
-          <td>2010-2013</td>
+          <td>2008-2011</td>
           <td>:</td>
-          <td>SMP NEGERI 9 TAMBUSAI UTARA</td>
+          <td>SMPN 1 HUTARAJA TINGGI</td>
 <tr>
-          <td>2004-2010</td>
+          <td>2002-2008</td>
           <td>:</td>
-          <td>SD Negeri 007 TAMBUSAI UTARA </td>
+          <td>SDN 1 HUTARAJA TINGGI  </td>
 <tr>
-        </tr>
-</tr>
+          
 </table>
