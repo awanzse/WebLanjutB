@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class rinaldi45 extends CI_Controller {
+class RAHMAT RINALDI extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
