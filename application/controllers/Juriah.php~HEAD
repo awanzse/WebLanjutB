@@ -1,7 +1,11 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class suratno extends CI_Controller {
+<<<<<<< HEAD:application/controllers/Juriah.php
+class Juriah extends CI_Controller {
+=======
+class WELCOME extends CI_Controller {
+>>>>>>> fd74b8036f6abeb4ce2a545fc3676e3149dee3f7:application/controllers/Welcome.php
 
 	/**
 	 * Index Page for this controller.
@@ -18,12 +22,8 @@ class suratno extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	function __construct(){
-		parent::__construct();
-		$this->load->helper('url');
-	}
 	public function index()
 	{
-		$this->load->view("data_view");
+		$this->load->view('welcome_message');
 	}
 }
