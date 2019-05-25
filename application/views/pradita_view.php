@@ -6,7 +6,7 @@
     </head>
 	<body>
 		<div class="navbar navbar-inverse navbar-fixed-top">
-		<header><img src="assets/image/pradita.jpg" alt=""/></header>
+		<header><img src="assets/image/ .jpg" alt=""/></header>
 			<div class="navbar-inner">
 				<div class="container-fluid"><a class="brand" href="index.php">Beranda</a><a class="brand" href="#">Kategori</a><a class="brand" href="#">Kontak</a><a class="brand" href="#">Tentang</a></div>
 			</div>
@@ -14,7 +14,9 @@
         <center>
 
 <body bgcolor="#green" width="800px">
-
+<div class="jumbotron text-center">
+  <img src="<?= base_url() ?>assets/image/pradita.jpg">
+  </div>
 
 <h1>BIODATA DIRI : </h1>
 
@@ -112,7 +114,7 @@
 <tr>
 
 <td class=”baris-ganjil” >Photo</td><td class=”baris-ganjil” style=”text-align:left”> 
-<img src="<?=base_url() ?>assets/img/ern.jpg" width="100px" height="150px">
+<img src="<?=base_url() ?>assets/img/dita.jpg" width="100px" height="150px">
 </td>
 
 </tr>
