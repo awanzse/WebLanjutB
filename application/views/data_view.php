@@ -1,10 +1,8 @@
 <html>
-	<head>
-		<title>UAS WEBLANJUT</title>
-		<!-- Bootstrap -->
-    	<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/css/style.css">
-    </head>
-	<body bgcolor="#green" width="800px">
+  <head>
+    <title>UAS WEB LANJUT</title> 
+  </head>
+  	<body bgcolor="#green" width="800px">
 		<div class="navbar navbar-inverse navbar-fixed-top">
 		<header>
 		<img src="assets/image/suratno.jpg">
