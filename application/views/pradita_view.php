@@ -2,18 +2,26 @@
 	<head>
 		<title>UAS WEBLANJUT</title>
 		<!-- Bootstrap -->
-    	<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/css/style.css">
+    	<link href="./css/bootstrap.min.css" rel="stylesheet" media="screen">
+    	<link href="./css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    	<link href="./css/bootswatch.css" rel="stylesheet" media="screen">
+    	<script type="text/javascript">
+    		function printValue(sliderID, textbox) {
+            var x = document.getElementById(textbox);
+            var y = document.getElementById(sliderID);
+            x.value = y.value;
+        }
+    	</script>
     </head>
-	<body>
+	<body style=”background-image:url('assets/img/samudra.jpg')”>
 		<div class="navbar navbar-inverse navbar-fixed-top">
-		<header><img src="assets/image/pradita.jpg" alt=""/></header>
+		<header><img src="assets/img/pradita.jpg" alt=""/></header>
 			<div class="navbar-inner">
 				<div class="container-fluid"><a class="brand" href="index.php">Beranda</a><a class="brand" href="#">Kategori</a><a class="brand" href="#">Kontak</a><a class="brand" href="#">Tentang</a></div>
 			</div>
 		</div>
-        <center>
 
-<body style=”background-image:url('assets/image/samudra.jpg')”>
+
 
 <h1>BIODATA DIRI : </h1>
 
