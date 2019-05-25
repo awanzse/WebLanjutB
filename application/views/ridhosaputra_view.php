@@ -2,13 +2,13 @@
   <head>
     <title>UAS PROFIL MAHASISWA</title> 
   </head>
-  <body bgcolor="#green" width="800px"> 
+  <body bgcolor="#46ffe7" width="800px"> 
   <div align="center">
   
 <center>
 <h1>Curiculum Vitae</h1>
     <table border="1">
-	<tr style="background-color:#green">
+	<tr style="background-color:#46ffe7">
   
  <td colspan="3"><center>BIODATA</center></td>
  </tr>
