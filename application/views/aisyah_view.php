@@ -2,25 +2,25 @@
   <head>
     <title>PROFIL MAHASISWA</title> 
   </head>
-  <body bgcolor="#green" width="800px"> 
+  <body bgcolor="#black" width="800px"> 
   <div align="center">
   
 <center>
 <h1>Curiculum Vitae</h1>
     <table border="1">
-	<tr style="background-color:red">
+	<tr style="background-color:green">
   
  <td colspan="3"><center>BIODATA</center></td>
  </tr>
  <tr>
  <td>NIM</td>
  <td>:</td>
- <td>1637040</td>
+ <td>1637028</td>
  </tr>
  <tr>
  <td>NAMA</td>
  <td>:</td>
- <td>ERNA ARMITA NST</td>
+ <td>SITI AISYAH</td>
  </tr>
  <tr>
  <td>SEMESTER/PRODI</td>
@@ -50,15 +50,12 @@
 <tr>
           <td width="25%">Nama</td>
           <td width="1%">:</td>
-          <td><b>ERNA ARMITA NST</b></td>
-          <td rowspan="5">
-		  <img src="<?=base_url() ?>assets/img/ern.jpg" width="100px" height="150px"> 
-		  </td>
+          <td><b>SITI AISYAH </b></td>
         </tr>
 <tr>
           <td>Tempat Tanggal, Lahir </td>
           <td>:</td>
-          <td>Kaiti, 14 Februari 1998</td>
+          <td>Dalu-Dalu, 01 JUNI 1998</td>
         </tr>
 <tr>
           <td>Jenis Kelamin </td>
@@ -73,12 +70,12 @@
 <tr>
           <td>Alamat</td>
           <td>:</td>
-          <td>Jl. Diponegoro, Sei Deras, Dusun Pasar Senin, Desa Koto Tinggi, Kecamatan Rambah.</td>
+          <td>Jl.Transmigrasi, Lingkungan kuba Dalu-Dalu</td>
         </tr>
 <tr>
     <td>E-mail</td>
           <td>:</td>
-          <td>ernaarmita@gmail.com</td>
+          <td>nasutionaisyah98@gmail.com</td>
         </tr>
 </tbody>
     </table>
@@ -93,20 +90,16 @@
 <tr>
           <td>2013-2016</td>
           <td>:</td>
-          <td>SMK Negeri 1 Rambah, Pasir Pengaraian</td>
+          <td>SMAN 3 Tambusai  </td>
         </tr>
 <tr>
           <td>2010-2013</td>
           <td>:</td>
-          <td>SMP Negeri 01 Rambah, Pasir Pengaraian</td>
+          <td>MTsN Dalu-Dalu</td>
 <tr>
           <td>2004-2010</td>
           <td>:</td>
-          <td>SD Negeri 001 Rambah, Pasir Pengaraian</td>
+          <td>SD Negeri 006 tambusai dalu dalu </td>
 <tr>
-          <td>2003-2004</td>
-          <td>:</td>
-          <td>TK Aisyah Butstanul Altfal</td>
-           </tr>
-</tr>
+          
 </table>
