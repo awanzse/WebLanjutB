@@ -5,6 +5,14 @@
 	<link rel="stylesheet" href="<?= base_url() ?>assets/bootstrap/css/bootstrap.min.css" >
 	<script src="<?= base_url() ?>assets/bootstrap/js/bootstrap.min.js" ></script>
 </head>
+<header>
+<div class="navbar navbar-inverse navbar-fixed-top">
+		<header><img src="gambar/header upp copy.jpg" alt=""/></header>
+			<div class="navbar-inner">
+				<div class="container-fluid"><a class="brand" href="index.php">Beranda</a><a class="brand" href="#">Kategori</a><a class="brand" href="#">Kontak</a><a class="brand" href="#">Tentang</a></div>
+			</div>
+		</div>
+</header>
 <body>
 <div class="jumbotron text-center">
   <img src="<?= base_url() ?>assets/image/suratno.jpg">
