@@ -1,26 +1,26 @@
 <html>
   <head>
-    <title>PROFIL MAHASISWA</title> 
+    <title>UAS WEBLANJUT</title> 
   </head>
-  <body bgcolor="#black" width="800px"> 
+  <body bgcolor="#33ffff" width="800px"> 
   <div align="center">
   
 <center>
 <h1>Curiculum Vitae</h1>
     <table border="1">
-	<tr style="background-color:green">
+	<tr style="background-color:#33ffff">
   
  <td colspan="3"><center>BIODATA</center></td>
  </tr>
  <tr>
  <td>NIM</td>
  <td>:</td>
- <td>1637028</td>
+ <td>1637044</td>
  </tr>
  <tr>
  <td>NAMA</td>
  <td>:</td>
- <td>SITI AISYAH</td>
+ <td>AAN MARDIANTO</td>
  </tr>
  <tr>
  <td>SEMESTER/PRODI</td>
@@ -50,17 +50,17 @@
 <tr>
           <td width="25%">Nama</td>
           <td width="1%">:</td>
-          <td><b>SITI AISYAH </b></td>
+          <td><b>AAN MARDIANTO </b></td>
         </tr>
 <tr>
           <td>Tempat Tanggal, Lahir </td>
           <td>:</td>
-          <td>Dalu-Dalu, 01 JUNI 1998</td>
+          <td>MARGA MULIYA, 16 JANUARI 1993</td>
         </tr>
 <tr>
           <td>Jenis Kelamin </td>
           <td>:</td>
-          <td>Perempuan</td>
+          <td>LAKI - LAKI</td>
         </tr>
 <tr>
           <td>Agama </td>
@@ -70,12 +70,12 @@
 <tr>
           <td>Alamat</td>
           <td>:</td>
-          <td>Jl.Transmigrasi, Lingkungan kuba Dalu-Dalu</td>
+          <td>DESA MARGA MULYA / TAMBAHAN</td>
         </tr>
 <tr>
     <td>E-mail</td>
           <td>:</td>
-          <td>nasutionaisyah98@gmail.com</td>
+          <td>aanmardianto8@gmail.com</td>
         </tr>
 </tbody>
     </table>
@@ -88,18 +88,18 @@
           <td>Fakultas Ilmu Komputer, Prodi Teknik Informatika, Universitas Pasir Pengaraian </td>
         </tr>
 <tr>
-          <td>2013-2016</td>
+          <td>2009-2012</td>
           <td>:</td>
-          <td>SMAN 3 Tambusai  </td>
+          <td>SMKN 1 RAMBAH  </td>
         </tr>
 <tr>
-          <td>2010-2013</td>
+          <td>2006-2009</td>
           <td>:</td>
-          <td>MTsN Dalu-Dalu</td>
+          <td>SMPN 004 RAMBAH SAMO</td>
 <tr>
-          <td>2004-2010</td>
+          <td>1999-2006</td>
           <td>:</td>
-          <td>SD Negeri 006 tambusai dalu dalu </td>
+          <td>SD Negeri 015 RAMBAH SAMO </td>
 <tr>
           
 </table>
