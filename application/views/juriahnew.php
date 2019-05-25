@@ -104,3 +104,20 @@
           <td>SD Negeri 009 Kepenuhan</td>
 </tr>
 </table>
+<footer>
+				<p><p align="center">juriahijur00@gmail@gmail.com</p></p>
+				<div id="column">
+                    <h2>Komentar,saran,bantuan dan dukungan anda</h2>
+                    silahkan kirimkan di
+					<a href="https://www.facebook.com/profile.php?id=100027771579000">Facebook,</a><br>
+                    dan submit form anda.
+                </div>
+
+                <div id="column"> <h2>Hubungi Kami</h2> Jln. Jend Sudirman Galian Tanah<br>
+                    Rokan Hulu 28459 Riau<br> hp 081275807645<br> wa 081275807645
+                </div>
+                <div id="column">
+                    <h2>Temukan Kami di ...</h2>
+                    <a href="https://www.instagram.com/ijurjamil0709/">Instagram</a><br> 
+                </div> 
+            </footer>
