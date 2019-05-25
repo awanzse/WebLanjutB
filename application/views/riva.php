@@ -61,7 +61,7 @@
 <tr>
           <td>Jenis Kelamin </td>
           <td>:</td>
-          <td>LAKI-LAKI</td>
+          <td>Laki - Laki</td>
         </tr>
 <tr>
           <td>Agama </td>
@@ -86,7 +86,7 @@
 <tr>
           <td width="25%">2016-Sekarang</td>
           <td width="1%">:</td>
-          <td>Fakultas Ilmu Komputer, Prodi Teknik Informatika, Universitas Pasir Pengaraian </td>
+          <td>Universitas Pasir Pengaraian, Fakultas Ilmu Komputer, Prodi Teknik Informatika,  </td>
         </tr>
 <tr>
           <td>2010-2013</td>
