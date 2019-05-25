@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class suratno extends CI_Controller {
+class munawaroh extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -24,6 +24,6 @@ class suratno extends CI_Controller {
 	}
 	public function index()
 	{
-		$this->load->view("data_view");
+		$this->load->view("muna_view");
 	}
 }
