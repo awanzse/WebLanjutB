@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>PROFIL MAHASISWA</title> 
+    <title>UAS PROFIL MAHASISWA</title> 
   </head>
   <body bgcolor="#green" width="800px"> 
   <div align="center">
@@ -35,7 +35,7 @@
  <tr>
  <td>DOSEN</td>
  <td>:</td>
- <td>INDRA GUNAWAN, S.Kom,.</td>
+ <td>INDRA GUNAWAN,S.Kom,.</td>
  </tr>
  </body>
  </table>
