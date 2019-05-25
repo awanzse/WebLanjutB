@@ -35,7 +35,12 @@
  <tr>
  <td>MATA KULIAH</td>
  <td>:</td>
- <td>WEB LANJUT</td>
+ <td>WEB LANJUT </td>
+ </tr>
+ <tr>
+ <td>KELAS</td>
+ <td>:</td>
+ <td>B (NON REG) </td>
  </tr>
  <tr>
  <td>DOSEN</td>
