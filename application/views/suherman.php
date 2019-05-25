@@ -25,7 +25,7 @@
  <tr>
  <td>SEMESTER/PRODI</td>
  <td>:</td>
- <td>6B/TEKNIK INFORMATIKA</td>
+ <td>6B/TEKNIK INFORMATIKA IS THE BEST</td>
  </tr>
  <tr>
  <td>MATA KULIAH</td>
