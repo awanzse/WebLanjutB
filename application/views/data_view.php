@@ -7,13 +7,12 @@
 	<body bgcolor="#green" width="800px">
 		<div class="navbar navbar-inverse navbar-fixed-top">
 		<header>
-		<img src="<?= base_url() ?>assets/img/logoupp100x100.png">
-		<img src="<?= base_url() ?>assets/image/suratno.jpg">
+		<img src="assets/image/suratno.jpg">
 		</header>
 		</div>
         <center>
 </body>
-
+<div>
 <h1>BIODATA DIRI : </h1>
 
 <table bgcolor="#white" style=”width:600px;” border=”1″ align=”center”>
@@ -127,7 +126,7 @@
 </tr>
 
 <table>
-
+</div>
                  </div>
                 <footer>                     
                    <div id="column">
