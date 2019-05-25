@@ -51,7 +51,9 @@
           <td width="25%">Nama</td>
           <td width="1%">:</td>
           <td><b>ERNA ARMITA NST</b></td>
-          <td rowspan="5"><img src="ern.jpg" alt="Foto ern" title="Foto ern" height="200px" width="150px"></td>
+          <td rowspan="5">
+		  <img src="<?=base_url() ?>assets/img/ern.jpg" width="100px" height="150px"> 
+		  </td>
         </tr>
 <tr>
           <td>Tempat Tanggal, Lahir </td>
@@ -105,6 +107,6 @@
           <td>2003-2004</td>
           <td>:</td>
           <td>TK Aisyah Butstanul Altfal</td>
-        </tr>
+           </tr>
 </tr>
 </table>
