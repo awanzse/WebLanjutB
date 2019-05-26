@@ -52,7 +52,7 @@
           <td width="1%">:</td>
           <td><b>RAHMAT RINALDI</b></td>
           <td rowspan="5">
-		  <img src="<?= base_url() ?>assets/img/rinaldi" height="200px" width="150px"></td>
+		  <img src="<?= base_url() ?>assets/img/rah.jpg" height="200px" width="150px"></td>
         </tr>
 <tr>
           <td>Tempat Tanggal, Lahir </td>
