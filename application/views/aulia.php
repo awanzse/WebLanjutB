@@ -14,7 +14,6 @@
  </tr>
  <tr>
   <tr>
-  <tr style="background-color:green">
  <td>NAMA</td>
  <td>:</td>
  <td>AULIA MAYLIZA</td>
