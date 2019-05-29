@@ -44,8 +44,7 @@
 
 </center>
 <hr />
-<h2>BIODATA MAHASISWA</h2>
-
+<h2> <marquee direction="right"width="500" height="40"> BIODATA MAHASISWA</marquee> </h2>
 <table width="800px"> 
 <tr>
           <td width="25%">Nama</td>
@@ -70,9 +69,19 @@
           <td>Islam</td>
         </tr>
 <tr>
+          <td>Cita-cita </td>
+          <td>:</td>
+          <td>Bermanfaat bagi Orang lain</td>
+        </tr>
+<tr>
+          <td>Pesan </td>
+          <td>:</td>
+          <td>Ketika kamu ikhlas atas semua yang mengecewakan, <br>maka Allah akan menggantikan kecewamu <br>dengan banyak kebaikan</td>
+        </tr>
+<tr>
           <td>Alamat</td>
           <td>:</td>
-          <td>Jl. Jend. Sudirman Galian Tanah Desa Kepenuhan Barat Mulia.</td>
+          <td>Jl. Jend. Sudirman Galian Tanah.</td>
         </tr>
 <tr>
     <td>E-mail</td>
@@ -81,7 +90,7 @@
         </tr>
 </tbody>
     </table>
-<h2>Riwayat Pendidikan</h2>
+<h2> <marquee direction="left"width="500" height="40"> RIWAYAT PENDIDIKAN</marquee> </h2>
 <table width="800px">
       <tbody>
 <tr>
@@ -106,7 +115,8 @@
 </table>
 <footer>
 				<div id="column">
-                    <h2>Komentar,saran,bantuan dan dukungan anda</h2>
+				<h2> <marquee direction="up"width="500" height="50"> komentar, saran ,bantuan <br>dan dukungan anda</marquee> </h2>
+      
                 </div>
 
                 <div id="column"> <h2>Hubungi Kami</h2> Jln. Jend Sudirman Galian Tanah<br>
