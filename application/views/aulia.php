@@ -25,7 +25,7 @@
  <tr>
  <td>SEMESTER/PRODI</td>
  <td>:</td>
- <td>6/TEKNIK INFORMATIKA</td>
+ <td>6B/TEKNIK INFORMATIKA</td>
  <tr>
  <td>FAKULTAS</td>
  <td>:</td>
