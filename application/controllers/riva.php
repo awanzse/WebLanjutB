@@ -1,7 +1,15 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+<<<<<<< HEAD:application/controllers/Welcome.php
+<<<<<<< HEAD
+class MUHAMMAD RIDHO SAPUTRA extends CI_Controller {
+=======
+class WELCOME extends CI_Controller {
+>>>>>>> 4528227ee0d70bedbb607c7d36dc61d0ccbb8786
+=======
 class riva extends CI_Controller {
+>>>>>>> c4529e05462f662d36162f46940dff9a50cd828d:application/controllers/riva.php
 
 	/**
 	 * Index Page for this controller.

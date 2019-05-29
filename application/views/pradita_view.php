@@ -1,24 +1,24 @@
-<html>
-	<head>
-		<title>UAS WEBLANJUT</title>
-		<!-- Bootstrap -->
-    	<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/css/style.css">
-    </head>
-	<body>
-		<div class="navbar navbar-inverse navbar-fixed-top">
-		<header><img src="assets/image/ .jpg" alt=""/></header>
-			<div class="navbar-inner">
-				<div class="container-fluid"><a class="brand" href="index.php">Beranda</a><a class="brand" href="#">Kategori</a><a class="brand" href="#">Kontak</a><a class="brand" href="#">Tentang</a></div>
-			</div>
-		</div>
-        <center>
 
+<html>
+ <head>
+    <title>UAS WEB LANJUT</title> 
+  </head>
+  <body bgcolor="#green" width="800px"> 
+  <div align="center">
+  
+<center> 
 <body bgcolor="#green" width="800px">
 <div class="jumbotron text-center">
-  <img src="<?= base_url() ?>assets/image/pradita.jpg">
+  <img src="<?= base_url() ?>assets/image/pradita_head.jpg">
   </div>
 
 <h1>BIODATA DIRI : </h1>
+<tr>
+	<img src="<?= base_url () ?>assets/img/dita.jpg" height="120px" width="100px"></td>
+</tr>
+<tr> </tr>
+
+	
 
 <table style=”width:600px;” border=”1″ align=”center”>
 
@@ -108,14 +108,6 @@
 <tr>
 
 <td>Pekerjaan</td><td style=”text-align:left”>  Guru</td>
-
-</tr>
-
-<tr>
-
-<td class=”baris-ganjil” >Photo</td><td class=”baris-ganjil” style=”text-align:left”> 
-<img src="<?=base_url() ?>assets/img/dita.jpg" width="100px" height="150px">
-</td>
 
 </tr>
 
