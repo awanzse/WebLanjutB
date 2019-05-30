@@ -6,7 +6,7 @@
   <div align="center">
   
 <center>
-<h1><marquee behavior="alternate" width="500" height="40">Curriculum Vitae</marquee></h1>
+<h1><marquee behavior="alternate" width="500" height="40">Daftar Riwayat Hidup</marquee></h1>
     <table border="1">
 	<tr style="background-color:gray">
   
