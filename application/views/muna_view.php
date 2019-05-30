@@ -52,7 +52,7 @@
           <td width="1%">:</td>
           <td><b>MUNAWAROH SITORUS</b></td>
           <td rowspan="5">
-		  <img src="<?=base_url() ?>assets/img/muna.jpg" width="100px" height="150px"> 
+		  <img src="<?=base_url() ?>assets/img/pane.jpg" width="100px" height="150px"> 
 		  </td>
         </tr>
 <tr>
