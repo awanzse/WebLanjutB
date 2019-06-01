@@ -4,11 +4,15 @@
   </head>
   <body bgcolor="#black" width="800px"> 
   <div align="center">
-  
+
+</center>
+<hr />  
 <center>
-<h1>Curiculum Vitae</h1>
+<h1><marquee behavior="alternate" width="500" height="40">Curriculum Vitae</marquee></h1>
+<table width="800px"> 
+
     <table border="1">
-	<tr style="background-color:green">
+	<tr style="background-color:purple">
   
  <td colspan="3"><center>BIODATA</center></td>
  </tr>
@@ -40,8 +44,12 @@
  </body>
  </table>
  </html>
- 
-
+ </tr>
+</center>
+<hr />
+		<img src="<?=base_url() ?>assets/img/nst.jpg" height="200px" width="150px"></td>	
+		  </td>
+		  </tr>
 </center>
 <hr />
 <h2>BIODATA MAHASISWA</h2>
@@ -51,11 +59,12 @@
           <td width="25%">Nama</td>
           <td width="1%">:</td>
           <td><b>SITI AISYAH </b></td>
-        </tr>
+		  </tr>
+		
 <tr>
           <td>Tempat Tanggal, Lahir </td>
           <td>:</td>
-          <td>Dalu-Dalu, 01 JUNI 1998</td>
+          <td>Dalu-Dalu, 01 Juni 1998</td>
         </tr>
 <tr>
           <td>Jenis Kelamin </td>
@@ -99,7 +108,35 @@
 <tr>
           <td>2004-2010</td>
           <td>:</td>
-          <td>SD Negeri 006 tambusai dalu dalu </td>
+          <td>SD Negeri 006 Tambusai dalu dalu </td>
 <tr>
           
 </table>
+</table>
+
+
+
+
+<tr>
+<tr>
+ <footer>    
+<tr>
+<tr>
+
+                    <div id="column">
+                       <h2>Komentar, saran, dan dukungan anda silahkan kirimkan di</h2>
+                        JL Transmigrasi, Lingkungan kuba<br>
+						Rokan Hulu, kodepos 28558<br>
+						dalu-dalu, riau indonesia<br>
+						hp 082284983633
+                   
+                    </div> 
+                    <div id="column">
+                        <h2>Temukan Kami di ...</h2>
+                        <a href="https://www.facebook.com/piny.alvionita"> Facebook </a><br>
+                        <a href="https://www.instagram.com/boru_nasutionn/"> Instagram </a><br>
+						<a href="https://gmail.google.com/gmail/u/0/#inbox"> G-mail </a><br>
+						
+ <p><p align="center">copyright &copy; 2019 siti aisyah</p></p>
+                    </div> 
+                </footer>
