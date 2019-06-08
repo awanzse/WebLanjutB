@@ -69,8 +69,8 @@
                     </div> 
                     <div id="column">
                         <h2>Temukan Kami di ...</h2>
+						<a href="www.Gmail.com">Gmail</a> <br>
                         <a href="https://www.facebook.com">Facebook</a><br>
-                        <a href="#">Twitter</a> <br>
 						 <a href="https://www.Instagram.com"> Intagram<p> <font color=red>Intagram: INDRAWAHYU900 <font>
 					<font color=blue> Facebook: INDRA WAHYU <font>
 					 <font color=green> WhatsApp: 0822-8407-2951 <font> 
