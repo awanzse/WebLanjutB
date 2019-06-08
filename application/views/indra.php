@@ -1,181 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-	<title>My-Calculator</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-
-    <style type="text/css" media="screen">
-
-body {
-  background-color: #089;
-}
-
-p {
-  margin: 0;
-  font-family: Pacifico;
-  position: relative;
-  left: 5%;
-  color:#eaeaea;
-}
-
-.calculator {
-  position: relative;
-  margin: 1em auto;
-  padding: 1em 0;
-  display: block-inline;
-  width: 350px;
-  background-color: #444;
-  border-radius: 25px;
-  box-shadow: 5px 5px 15px 3px #111;
-  font-family: 'Oxygen';
-}
-
-.calc-row {
-  text-align: center;
-}
-
-.calc-row div.screen {
-  font-family: Droid Sans Mono;
-  display: table;
-  width: 85%;
-  background-color: #aaa;
-  text-align: right;
-  font-size: 2em;
-  min-height: 1.2em;
-  margin-left: 0.5em;
-  padding-right: 0.5em;
-  border: 1px solid #888;
-  color: #333;
-}
-
-.calc-row div {
-  text-align: center;
-  display: inline-block;
-  font-weight: bold;
-  border: 1px solid #555;
-  background-color: #eee;
-  padding: 10px 0;
-  margin: 7px 5px;
-  border-radius: 15px;
-  box-shadow: 2px 2px 1px 1px #222;
-  width: 50px;
-}
-
-.calc-row div.zero {
-  width: 112px;
-}
-
-.calc-row div.zero {
-  margin-right: 5px;
-}
-
-</style>	
+	<title>UAS WEBLANJUT</title>
+	<link rel="stylesheet" href="<?= base_url() ?>assets/bootstrap/css/bootstrap.min.css" >
+	<script src="<?= base_url() ?>assets/bootstrap/js/bootstrap.min.js" ></script>
 </head>
-<body>
-  <div class="calculator">
-  <p>Calculator By Indra Wahyu</p>
-  <div class="calc-row">
-    <div class="screen">082284072951</div>
-  </div>
-  
-  <div class="calc-row">
-    <div class="button">C</div><div class="button">CE</div><div class="button backspace">back</div><div class="button plus-minus">+/-</div><div class="button">%</div>
-  </div>
-  
-  <div class="calc-row">
-    <div class="button">7</div><div class="button">8</div><div class="button">9</div><div class="button divice">/</div><div class="button root">sqrt</div>
-  </div>
-  
-  <div class="calc-row">
-    <div class="button">4</div><div class="button">5</div><div class="button">6</div><div class="button multiply">*</div><div class="button inverse">1/x</div>
-  </div>
-  
-  <div class="calc-row">
-    <div class="button">1</div><div class="button">2</div><div class="button">3</div><div class="button">-</div><div class="button pi">pi</div>
-  </div>
-  
-  <div class="calc-row">
-    <div class="button zero">0</div><div class="button decimal">.</div><div class="button">+</div><div class="button equal">=</div>
-  </div>
+<body bgcolor="#blue" width="800px">
+<div class="jumbotron text-center">
+<div class="kolom">
+<h1><b>CURRICULUM VITAE<b></h1>
+  <img src="<?= base_url() ?>assets/image/indra.jpg">
+  <p></p> 
 </div>
-
-<!-- include jquery.min.js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<!-- Page Script -->
-<script>
-	$(document).ready(function() {
-  var result = 0;
-  var prevEntry = 0;
-  var operation = null;
-  var currentEntry = '0';
-  updateScreen(result);
   
-  $('.button').on('click', function(evt) {
-    var buttonPressed = $(this).html();
-    console.log(buttonPressed);
+<div class="container">
+  <div class="row">
+    <div class="col-sm-7">
+      <h3><b>BIODATA</b></h3>
+      <table style=”width:600px;” border=”1″ align=”center”>
+<img src="<?= base_url() ?>assets/img/indra.jpg">
+<tr>
+<td><b>Nama</td><td style=”text-align:left”><b>Indra Wahyu</td>
+</tr>
+<tr>
+<td><b>Nim</td><td style=”text-align:left”><b>1637050</td>
+</tr>
+<tr>
+<td class=”baris-ganjil”><b>Tempat Tgl Lahir</td><td class=”baris-ganjil” style=”text-align:left”><b>P.Tebih, 28 Maret 1998</td>
+</tr>
+<tr>
+<td class=”baris-ganjil”><b>Jenis Kelamin</td><td class=”baris-ganjil” style=”text-align:left”><b>Laki-laki</td>
+</tr>
+<tr>
+<td class=”baris-ganjil”><b>Agama</td><td class=”baris-ganjil” style=”text-align:left”><b>Islam</td>
+</tr>
+<tr>
+<td class=”baris-ganjil”><b>Alamat</td><td class=”baris-ganjil” style=”text-align:left”><b>RT. 01 RW. 01, Dusun Harapan, Desa Kepenuhan Hulu</td>
+</tr>
+<tr>
+<td class=”baris-ganjil”><b>Nomor Handphone</td><td class=”baris-ganjil” style=”text-align:left”><b>+62822-8407-2951</td>
+</tr>
+<tr>
+<td class=”baris-ganjil”><b>Email</td><td class=”baris-ganjil” style=”text-align:left”><b>indrawahyu900@gmail.com</td>
+</tr>
+</table>
+    </div>
+    <div class="col-sm-4">
+      <h3><b>PENDIDIKAN FORMAL</b></h3>
+      <p><b>1. SD Negeri 010 Kepenuhan Hulu, Tahun 2004 s/d 2007</b></p>
+	  <p><b>2. SD Negeri 014 Ujung Batu, Tahun 2007</b></p>
+	  <p><b>3. SD Negeri 003 Pekanbaru, Tahun 2008 s/d Lulus 2010</b></p>
+      <p><b>4. SMP Negeri 1 Kepenuhan Hulu, Tahun 2010 lulus Tahun 2013</b></p>
+	  <p><b>5. SMK Negeri 2 Kepenuhan Hulu, Tahun 2013 lulus Tahun 2016</b></p>
+	  <p><b>6. Universitas Pasir Pengaraian, Program Studi Teknik Informatika, Tahun 2016 sampai sekarang</b></p>
+    </div>
     
-    if (buttonPressed === "C") {
-      result = 0;
-      currentEntry = '0';
-    } else if (buttonPressed === "CE") {
-      currentEntry = '0';
-    } else if (buttonPressed === "back") {
-      //currentEntry = currentEntry.substring(0, currentEntry.length-1);
-    } else if (buttonPressed === "+/-") {
-      currentEntry *= -1;
-    } else if (buttonPressed === '.') {
-      currentEntry += '.';
-    } else if (isNumber(buttonPressed)) {
-      if (currentEntry === '0') currentEntry = buttonPressed;
-      else currentEntry = currentEntry + buttonPressed;
-    } else if (isOperator(buttonPressed)) {
-      prevEntry = parseFloat(currentEntry);
-      operation = buttonPressed;
-      currentEntry = '';
-    } else if(buttonPressed === '%') {
-      currentEntry = currentEntry / 100;
-    } else if (buttonPressed === 'sqrt') {
-      currentEntry = Math.sqrt(currentEntry);
-    } else if (buttonPressed === '1/x') {
-      currentEntry = 1 / currentEntry;
-    } else if (buttonPressed === 'pi') {
-      currentEntry = Math.PI;
-    } else if (buttonPressed === '=') {
-      currentEntry = operate(prevEntry, currentEntry, operation);
-      operation = null;
-    }
-    
-    updateScreen(currentEntry);
-  });
-});
-
-updateScreen = function(displayValue) {
-  var displayValue = displayValue.toString();
-  $('.screen').html(displayValue.substring(0, 10));
-};
-
-isNumber = function(value) {
-  return !isNaN(value);
-}
-
-isOperator = function(value) {
-  return value === '/' || value === '*' || value === '+' || value === '-';
-};
-
-operate = function(a, b, operation) {
-  a = parseFloat(a);
-  b = parseFloat(b);
-  console.log(a, b, operation);
-  if (operation === '+') return a + b;
-  if (operation === '-') return a - b;
-  if (operation === '*') return a * b;
-  if (operation === '/') return a / b;
-}
-</script>
+</div>
+<footer>                     
+                   <div id="column">
+                        <p><h2><p align="center">Dapatkan Bantuan dan Dukungan</p></h2></p>
+                        Untuk mendapatkan petunjuk atau dukungan dari kami, kunjungi situs <a href="#">www.BIODATA DIRI.com</a> dan submit form anda.
+                    </div> 
+                    <div id="column">
+                        <h2>Hubungi Kami</h2>
+                        Jl. Jendral Sudirman<br>
+						Kepnuhan Hulu, Rokan Hulu, Riau<br>
+                        +6282284072951
+                    </div> 
+                    <div id="column">
+                        <h2>Temukan Kami di ...</h2>
+                        <a href="https://www.facebook.com">Facebook</a><br>
+                        <a href="#">Twitter</a> <br>
+						 <a href="https://www.Instagram.com"> Intagram<p> <font color=red>Intagram: INDRAWAHYU900 <font>
+					<font color=blue> Facebook: INDRA WAHYU <font>
+					 <font color=green> WhatsApp: 0822-8407-2951 <font> 
+					<font color=orange> Email	: indrawahyu900@gmail.com <font></p>
+                    </div>					
+</footer>
 </body>
 </html>
